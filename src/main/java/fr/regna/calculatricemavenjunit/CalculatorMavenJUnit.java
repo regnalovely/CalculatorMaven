@@ -12,7 +12,7 @@ import javax.swing.JButton;
  *
  * @author etudiant
  */
-public class CalculatorMavenGit extends javax.swing.JFrame {
+public class CalculatorMavenJUnit extends javax.swing.JFrame {
 
     static Number numberOne = new Number(0); // Nombre 1
     static Number numberTwo = new Number(0); // Nombre 2
@@ -26,7 +26,7 @@ public class CalculatorMavenGit extends javax.swing.JFrame {
     /**
      * Creates new form CalculatorMavenGit
      */
-    public CalculatorMavenGit() {
+    public CalculatorMavenJUnit() {
         initComponents();
     }
 
@@ -462,20 +462,21 @@ public class CalculatorMavenGit extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(CalculatorMavenGit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CalculatorMavenJUnit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(CalculatorMavenGit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CalculatorMavenJUnit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(CalculatorMavenGit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CalculatorMavenJUnit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(CalculatorMavenGit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CalculatorMavenJUnit.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new CalculatorMavenGit().setVisible(true);
+                new CalculatorMavenJUnit().setVisible(true);
             }
         });
     }
